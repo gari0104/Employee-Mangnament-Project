@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cascading (2).css">
+    <title>Employee Management System</title>
+</head>
+<body>
+    <form class="devinfo" onsubmit="return validate()">
+        <h1>Employee Management System</h1>
+        <div class="conatiner">  
+            <nav>
+                <ul>
+                    <li><label for="Name">Name</label></li>
+                    <input   id="Name" type="text" placeholder="Enter name" required>
+                    <li><label for="Age">Age</label></li>
+                    <input  id="Age" type="number"   placeholder="Enter age" required>
+                    <li><label for="Department">Department</label></li>
+                    <input  id="Department" type="text" required placeholder="Enter department">
+                    <li><label for="Blood_Grp">Blood Group</label></li>
+                   <input  id="Blood_Grp" type="text" required placeholder="Enter blood group">
+                    <li><label for="Address">Address</label></li>
+                    <input   id="Address" type="text" required placeholder="Enter address">
+                    <li><label for="Contact">Contact Number</label></li>
+                    <input  id="Contact" type="number"    required placeholder="Enter contact number">
+                    
+
+                    <div class="btn">
+                        <button onclick="saveData()"><a href="C:\Users\a\Downloads\display.html">submit</a></button>
+                        </div>
+                </ul>
+            </nav>
+            </div> 
+</form>
+
+
+<footer>
+    <div class="ft">All rights reserved</div>
+</footer>
+
+</body>
+<script src="Employee.js"></script>
+</html>
